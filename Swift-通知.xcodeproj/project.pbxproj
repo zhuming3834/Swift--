@@ -14,6 +14,8 @@
 		C39099631CCC49F40074F50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39099611CCC49F40074F50A /* LaunchScreen.storyboard */; };
 		C390996E1CCC49F40074F50A /* Swift___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390996D1CCC49F40074F50A /* Swift___Tests.swift */; };
 		C39099791CCC49F40074F50A /* Swift___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39099781CCC49F40074F50A /* Swift___UITests.swift */; };
+		C39099881CCC4DBF0074F50A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39099861CCC4DBF0074F50A /* SecondViewController.swift */; };
+		C39099891CCC4DBF0074F50A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39099871CCC4DBF0074F50A /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C39099741CCC49F40074F50A /* Swift-通知UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-通知UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39099781CCC49F40074F50A /* Swift___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___UITests.swift"; sourceTree = "<group>"; };
 		C390997A1CCC49F40074F50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39099861CCC4DBF0074F50A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C39099871CCC4DBF0074F50A /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C39099581CCC49F40074F50A /* AppDelegate.swift */,
 				C390995A1CCC49F40074F50A /* ViewController.swift */,
+				C39099861CCC4DBF0074F50A /* SecondViewController.swift */,
+				C39099871CCC4DBF0074F50A /* SecondViewController.xib */,
 				C390995C1CCC49F40074F50A /* Main.storyboard */,
 				C390995F1CCC49F40074F50A /* Assets.xcassets */,
 				C39099611CCC49F40074F50A /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39099891CCC4DBF0074F50A /* SecondViewController.xib in Resources */,
 				C39099631CCC49F40074F50A /* LaunchScreen.storyboard in Resources */,
 				C39099601CCC49F40074F50A /* Assets.xcassets in Resources */,
 				C390995E1CCC49F40074F50A /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39099881CCC4DBF0074F50A /* SecondViewController.swift in Sources */,
 				C390995B1CCC49F40074F50A /* ViewController.swift in Sources */,
 				C39099591CCC49F40074F50A /* AppDelegate.swift in Sources */,
 			);
